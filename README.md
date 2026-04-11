@@ -93,7 +93,3 @@ Sau khi build, file chạy sẽ nằm trong thư mục `dist/`.
 - Ứng dụng được tối ưu cho **Windows** vì có dùng `winreg` để đọc registry.
 - Nên kiểm tra kỹ link trước khi mở hàng loạt.
 - Nếu máy chưa cài trình duyệt được hỗ trợ, danh sách trình duyệt sẽ trống.
-
-## 👤 Tác giả
-
-- **Ngọc Trinh**
