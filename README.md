@@ -41,11 +41,36 @@ Dự án có sẵn bộ ảnh logo trong thư mục [`img/`](img):
 
 ```text
 .
-├── app.py                  # Giao diện và luồng xử lý chính
-├── check_browser.py        # Phát hiện trình duyệt cài trong máy (Windows)
-├── img/                    # Logo ứng dụng + logo trình duyệt
-├── Quick meet link.spec    # Cấu hình build bằng PyInstaller
-└── dist/                   # File build đầu ra (.exe)
+├── app.py                      # Giao diện và luồng xử lý chính
+├── config.py                   # Cấu hình chung của ứng dụng
+├── check_browser.py            # Phát hiện và phân loại trình duyệt trên Windows (registry + PATH + common paths)
+│
+├── services/                   # Tầng xử lý logic
+│   ├── browser_service.py      # Xử lý mở link bằng trình duyệt
+│   ├── link_service.py         # Xử lý và chuẩn hóa link meeting
+│   └── ocr_service.py          # Nhận diện chữ từ ảnh (OCR)
+│
+├── ui/                         # Giao diện người dùng
+│   ├── main_window.py          # Cửa sổ chính
+│   ├── scan_window.py          # Cửa sổ quét ảnh
+│   └── dialogs.py              # Hộp thoại và popup
+│
+├── tesseract/                  # Engine OCR (Tesseract + dữ liệu)
+│   ├── tesseract.exe
+│   ├── *.dll
+│   └── tessdata/
+│       ├── eng.traineddata
+│       ├── vie.traineddata
+│       └── osd.traineddata
+│
+├── img/                        # Logo ứng dụng + logo trình duyệt
+│
+├── Quick meet link.spec        # Cấu hình build PyInstaller
+│
+├── dist/                       # Output build (.exe) — đã ignore
+├── build/                      # File tạm khi build — đã ignore
+│
+└── .gitignore                  # Bỏ qua file build, exe, pkg
 ```
 
 ## 🚀 Chạy dự án ở chế độ dev
