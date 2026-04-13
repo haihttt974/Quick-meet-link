@@ -125,7 +125,7 @@ Bạn có thể tải phiên bản mới nhất tại trang Releases:
 
 Hoặc tải nhanh:
 
-- [Download Quick.meet.link.exe](https://github.com/haihttt974/Quick-meet-link/releases/download/v1.0.0/Quick.meet.link.exe)
+- [Download Quick.meet.link.exe](https://github.com/haihttt974/Quick-meet-link/releases/download/v1.0.1/Quick.meet.link.exe)
 
 ### 📝 Ghi chú
 
