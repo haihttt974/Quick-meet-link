@@ -2,3 +2,7 @@ build/
 dist/
 *.exe
 *.pkg
+
+# Python cache
+__pycache__/
+*.pyc

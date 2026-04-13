@@ -26,7 +26,7 @@ SELECT_BORDER = "#60a5fa"
 ICON_BOX_SIZE = 42
 ICON_IMAGE_SIZE = 26
 
-AUTHOR_NAME = "Ngọc Trinh"
+AUTHOR_NAME = "Lê Duy Hải"
 
 BASE_DIR = resource_path(".")
 IMG_DIR = resource_path("img")
