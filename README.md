@@ -113,6 +113,26 @@ Sau khi build, file chạy sẽ nằm trong thư mục `dist/`.
 3. Chọn trình duyệt từ danh sách đã phát hiện.
 4. Bấm nút mở link để mở toàn bộ phòng họp.
 
+## ⬇️ Tải xuống
+
+Bạn có thể tải phiên bản mới nhất tại trang Releases:
+
+👉 https://github.com/haihttt974/Quick-meet-link/releases
+
+### 📦 Bản phát hành v1.0.0
+
+- **Quick.meet.link.exe** – File chạy trực tiếp trên Windows (không cần cài đặt)
+
+Hoặc tải nhanh:
+
+- [Download Quick.meet.link.exe](https://github.com/haihttt974/Quick-meet-link/releases/download/v1.0.0/Quick.meet.link.exe)
+
+### 📝 Ghi chú
+
+- File `.exe` đã được build sẵn bằng PyInstaller
+- Nếu Windows cảnh báo bảo mật, chọn **More info → Run anyway**
+- Khuyến nghị tải từ đúng trang GitHub Releases để đảm bảo an toàn
+
 ## ⚠️ Lưu ý
 
 - Ứng dụng được tối ưu cho **Windows** vì có dùng `winreg` để đọc registry.
